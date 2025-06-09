@@ -64,3 +64,41 @@
 // const { name, age, country} = person;
 // console.log(name, age, country);
 
+//  const password = 8;
+//  const passwordChecker = ps =>
+//      ps >= 8? "Strong password":"Password is not strong";
+//  console.log(passwordChecker(password))
+
+// let list = ["one", "two", 'three', "four"];
+
+// for(let dex in list){
+//     console.log(`${dex}: ${list[dex]}`);
+// }
+
+// const objects = {a: 1, b: 2, c: 3};
+// for (let object in objects){
+//     console.log(`${object}: ${objects[object]}`)
+// };
+
+//  const array1 = ["a", "b", "c"];
+//  for (const element of array1) {
+//     console.log(element)
+//  }
+
+// const words = ["hello", "birds", "table", "football",];
+
+// const capwords = words.forEach((word, index, arr) => {
+//     arr[index] = word[0].toUpperCase() + word.substring(1);
+// })
+
+// console.log(words)
+
+// const arrNum = [1, 2, 3, 4, 5, 6, 7, 8,];
+// let sum = 0;
+
+// let adder = number => sum += number;
+
+// arrNum.forEach(adder);
+// console.log(sum)
+
+
