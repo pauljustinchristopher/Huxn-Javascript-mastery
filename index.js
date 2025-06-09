@@ -101,4 +101,36 @@
 // arrNum.forEach(adder);
 // console.log(sum)
 
+// let numbers = [1,2,3,4,5]
+// let double = numbers.map(num => num * 2)
+// console.log(double)
 
+// let randomNumbers = [2,35,556,23,6,7,2,8,6,];
+
+// let multiply = randomNumbers.map(num => num * 10)
+// console.log(multiply)
+
+// const computers = [
+//     { ram: 4, hdd: 100 },
+//     { ram: 8, hdd: 200},
+//     { ram: 16, hdd: 300},
+//     { ram: 32, hdd: 400},
+
+// ];
+// console.log(computers.filter((com) => com.ram < 16));
+
+// const ages = [32, 33 , 16, 40, 18];
+// console.log(ages.filter(age => age > 17));
+
+const words = [
+    "spray", 
+    "limit",
+    "elite",
+    "exuberant",
+    "destruction",
+    "present",
+];
+
+// const result = (word) => word.length > 6;
+
+console.log(words.filter(word => word.length > 6));
